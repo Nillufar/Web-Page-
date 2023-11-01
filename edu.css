@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+}
+
+body {
+    background: url('bb.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.container {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    padding: 50px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+.text {
+    letter-spacing: 1.3px;
+    font-size: 20px;
+    line-height: 1.7;
+    /* Adjust the spacing as needed */
+}
+
+.p {
+    line-height: 2;
+    font-size: 33px;
+    /* Added 'px' unit */
+}
+
+h2 {
+    margin-top: -15px;
+    font-size: 45px;
+    /* Blue color, you can change this */
+    color: #c17b0b;
+    line-height: 3.5;
+    text-align: center;
+}
+
+h1 {
+    color: #c17b0b;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 2.5;
+}
+
+.text {
+    letter-spacing: 1.3px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+p {
+    line-height: 2;
+    font-size: 18px;
+}
